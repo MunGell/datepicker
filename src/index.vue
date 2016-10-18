@@ -6,8 +6,8 @@
 
 <script>
 import Flatpickr from 'flatpickr'
-import SingleInput from './SingleInput'
-import WrapperInput from './WrapperInput'
+import SingleInput from './SingleInput.vue'
+import WrapperInput from './WrapperInput.vue'
 
 function Datepicker (selector, config, l10n) {
   this.l10n = Object.assign({}, Flatpickr.prototype.l10n, l10n)
